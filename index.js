@@ -8,7 +8,7 @@ let num = 120
 const client = new Discord.Client()
 require('discord-reply');
 const data = require("./data.json")
-const Token = process.env['token']
+const Token = process.env.token
 const fs = require("fs")
 const prefix = "!"
 require('discord-buttons')(client);
